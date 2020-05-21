@@ -160,6 +160,10 @@ a.line_detail_button:hover::before {
 .header_top .ut {display: inline-block; position: absolute; right: 0; line-height: 25px;}
 .header_top .ut li {display: inline-block;}
 
+.ut li:nth-child(5) a{margin-right: -22px;}
+.ut li {margin-right: -20px;}
+
+
 .header_top .social li:nth-child(4) a::after{
     content: '';
     display: inline-block;
@@ -271,6 +275,10 @@ nav.active #drop_menu {
     position: relative;
     padding-top: 8px;
 }
+
+#con1 .prev { margin-left: 55px;}
+#con1 .next { margin-right: 55px;}
+
 
 /* slider */
 #main_slider {
@@ -387,7 +395,7 @@ nav.active #drop_menu {
     height: 720px; 
     display: flex;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: #f3f3f3;
 }
 
 #con3 > div {
