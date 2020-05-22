@@ -112,6 +112,7 @@ a.default_line_button:hover .btn_txt{
 a.line_detail_button:hover .btn_txt{ 
     color: #828282;
 }
+
 .btn_txt{
     position: relative;
     z-index: 10;
@@ -422,7 +423,8 @@ nav.active #drop_menu {
     position: absolute;
     top: 0;
     left: 0;
-
+    margin-left: -280px;
+    margin-top: -75px;
 }
 
 
